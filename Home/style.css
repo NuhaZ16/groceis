@@ -9,7 +9,7 @@
 
 /* Header Section */
 .header {
-    background-image: url('images/u.jpg');
+    background-image: url('home.images/u.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -841,7 +841,7 @@ opacity: 0.9;
 
 /*-------about us page--------*/
 .sub-header1 {
-    background-image: url(images/about\ us\ .jpg);
+    background-image: url(aboutus.images/about\ us.jpg);
     height: 50vh;
     width: 100%;
     background-position: center;
@@ -1501,7 +1501,7 @@ h2 {
 /*-----DAIRY PRODUCTS PAGE------*/
 
 .dairy{
-    background-image: url(images/cows.jpg);
+    background-image: url(dairy.images/cows.jpg);
     height: max-content;
     background-attachment: fixed;
     background-position: center;
@@ -1762,7 +1762,7 @@ h2 {
 
 /*-----Vegetables------*/
 .veg-header {
-    background-image: url(images/veg\ back.jpg);
+    background-image: url(vegetables.images/veg\ back-min.jpg);
     height: 50vh;
     width: 98%;
     background-position: center;
@@ -1911,8 +1911,8 @@ h2 {
         grid-template-columns: repeat(4, 1fr); /* Display four images in a row */
         gap: 25px;
         justify-content: center;
-        margin: 0 -10px; /* Adjust margin to remove gap from the ends */
-        padding: 0 10px; /* Add padding to the container */
+        margin: 0 -10px; 
+        padding: 0 10px; 
         
     }
     
@@ -1986,9 +1986,9 @@ h2 {
     padding: 50px 0;
     font-family: 'Poppins', sans-serif;
     margin-top: 50px; /* Add margin from the top */
-    margin-left: -10px; /* Compensate for left margin */
-    margin-right: -10px; /* Compensate for right margin */
-    width: calc(100% + 20px); /* Make footer full width */
+    margin-left: -10px; 
+    margin-right: -10px; 
+    width: calc(100% + 20px); 
 }
 
 
@@ -2022,7 +2022,7 @@ h2 {
     content: '';
     width: 50px;
     height: 2px;
-    background: #ffd700; /* Gold underline */
+    background: #ffd700; 
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2053,7 +2053,7 @@ h2 {
 }
 
 .socials a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffd700; 
 }
 
 .links ul {
@@ -2072,7 +2072,7 @@ h2 {
 }
 
 .links a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffd700; 
 }
 
 .contact-form form {
@@ -2100,7 +2100,7 @@ h2 {
 
 .btn {
     padding: 10px 15px;
-    background-color: #ffd700; /* Gold button background */
+    background-color: #ffd700; 
     color: #333;
     border: none;
     border-radius: 5px;
@@ -2109,7 +2109,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #ffdb4d; /* Lighter gold on hover */
+    background-color: #ffdb4d; 
 }
 
 .footer-bottom {
@@ -2118,14 +2118,14 @@ h2 {
     text-align: center;
     padding: 10px 0;
     font-size: 0.85rem;
-    border-top: 1px solid #444; /* Dark gray border */
+    border-top: 1px solid #444; 
 }
 
 
 /*---COSMETICS & SKINCARE PRODUCTS PAGE-------*/
 
 .cosmetic-container {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/skin\ temp.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(cosmetics.images/skin\ temp.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -2159,22 +2159,22 @@ h2 {
     box-sizing: border-box;
     cursor: pointer;
     margin: 20px 30px;
-    background-image: url(images/serum\ tem.jpg);
+    background-image: url(cosmetics.images/serum\ tem.jpg);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
 }
 .card1 {
-    background-image: url(images/serum\ tem.jpg);
+    background-image: url(cosmetics.images/serum\ tem.jpg);
 }
 .card2 {
-    background-image: url(images/lipgloass.png);
+    background-image: url(cosmetics.images/lipgloass.png);
 }
 .card3 {
-    background-image: url(images/serum.png);
+    background-image: url(cosmetics.images/serum.png);
 }
 .card4 {
-    background-image: url(images/make.te.png);
+    background-image: url(cosmetics.images/make.te.png);
 }
 .cos-card:hover {
     transform: translateY(-10px);
@@ -2224,7 +2224,7 @@ tr:nth-child(odd) {
 }
 
 tr:hover {
-    background-color: #E7D7C9; /* Updated hover effect color */
+    background-color: #E7D7C9; 
     color: #fff;
 }
 
@@ -2251,7 +2251,7 @@ img {
 }
 
 td, th {
-    color: #90533C; /* Updated font color */
+    color: #90533C; 
 }
 
 /*----COSMETICS SECTION FOOTER -----*/
@@ -2261,7 +2261,7 @@ td, th {
     padding: 50px 0;
     font-family: 'Poppins', sans-serif;
     margin-top: 50px; /* Margin between product section and footer */
-    height: 300px; /* Set a fixed height for the footer */
+    height: 300px; 
     width: 100%; /* Make the footer stretch across the entire width */
 }
 
@@ -2295,7 +2295,7 @@ td, th {
     content: '';
     width: 50px;
     height: 2px;
-    background: #ffd700; /* Gold underline */
+    background: #ffd700; 
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2326,7 +2326,7 @@ td, th {
 }
 
 .socials a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffd700; 
 }
 
 .links ul {
@@ -2345,7 +2345,7 @@ td, th {
 }
 
 .links a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffd700; 
 }
 
 .contact-form form {
@@ -2358,12 +2358,12 @@ td, th {
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #333; /* Dark gray background for input */
+    background-color: #333; 
     color: #ccc;
 }
 
 .text-input::placeholder {
-    color: #999; /* Lighter gray placeholder */
+    color: #999; 
 }
 
 .contact-input {
@@ -2373,7 +2373,7 @@ td, th {
 
 .btn {
     padding: 10px 15px;
-    background-color: #ffd700; /* Gold button background */
+    background-color: #ffd700; 
     color: #333;
     border: none;
     border-radius: 5px;
@@ -2382,7 +2382,7 @@ td, th {
 }
 
 .btn:hover {
-    background-color: #ffdb4d; /* Lighter gold on hover */
+    background-color: #ffdb4d; 
 }
 
 .footer-bottom {
@@ -2391,7 +2391,7 @@ td, th {
     text-align: center;
     padding: 10px 0;
     font-size: 0.85rem;
-    border-top: 1px solid #444; /* Dark gray border */
+    border-top: 1px solid #444; 
 }
 
 
@@ -2465,7 +2465,7 @@ h2 {
 }
 
 .add-to--btn {
-    background-color: #d2b48c; /* Tan */
+    background-color: #d2b48c; 
     color: #ffffff;
     border: none;
     padding: 15px;
@@ -2591,5 +2591,4 @@ h2 {
 .register-btn:hover {
     background-color: #a67c52;
     transform: scale(1.05);
-}
 }
