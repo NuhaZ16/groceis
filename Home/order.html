@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="loyalty.html">LOYALTY REGISTRATION</a></li>
+            </ul>
+        </div>
+      
+        
+    </nav>
+    
+    <div class="form">
+        <div class="order-container">
+            <h2>Grocery Order Form</h2>
+            <form class="order-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="brand">Item :</label>
+                    <select id="brand" name="brand" required>
+                        <option value="">Select an item</option>
+                        <option value="apple">Vegetable</option>
+                        <option value="banana">Dairy</option>
+                        <option value="carrot"> Cosmetics</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="brand">Item Brand :</label>
+                    <input type="text" id="quantity" name="quantity" min="1" required>
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="delivery">Delivery Date:</label>
+                    <input type="date" id="delivery" name="delivery" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Comments:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any specific instructions or comments"></textarea>
+                </div>
+                <button type="submit" class="add-to--btn">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="cosmetics-footer">
+        <div class="cosmetics-container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Grocies Supermarket</h2>
+                    <p>We are committed to providing the freshest groceries and top-quality products to our customers.</p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> 123-456-7890</span>
+                        <span><i class="fas fa-envelope"></i> info@grocies.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="#">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                        <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Grocies Supermarket. All rights reserved.
+        </div>
+    </footer>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOYALTY REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="loyalty.html">LOYALTY REGISTRATION</a></li>
+            </ul>
+        </div>
+      
+        
+    </nav>
+    
+    <div class="loyalty-container">
+        <h2>Loyalty Program Registration</h2>
+        <form class="loyalty-form">
+            <div class="loyalty-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="loyalty-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="state">State/Province</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="zip">ZIP/Postal Code</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="loyalty-group">
+                <label for="subscribe-newsletter">Subscribe to Newsletter</label>
+                <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter">
+            </div>
+            <div class="loyalty-group">
+                <label for="sms-notifications">Receive SMS Notifications</label>
+                <input type="checkbox" id="sms-notifications" name="sms-notifications">
+            </div>
+            <div class="loyalty-group">
+                <label for="membership">Membership Type</label>
+                <div class="membership-options">
+                    <input type="radio" id="basic" name="membership" value="basic" checked>
+                    <label for="basic">Basic</label>
+                    <input type="radio" id="gold" name="membership" value="gold">
+                    <label for="gold">Gold</label>
+                    <input type="radio" id="platinum" name="membership" value="platinum">
+                    <label for="platinum">Platinum</label>
+                </div>
+            </div>
+            <div class="loyalty-group">
+                <button type="submit" class="register-btn">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="cosmetics-footer">
+        <div class="cosmetics-container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Grocies Supermarket</h2>
+                    <p>We are committed to providing the freshest groceries and top-quality products to our customers.</p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> 123-456-7890</span>
+                        <span><i class="fas fa-envelope"></i> info@grocies.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h2>Contact Us</h2>
+                    <form action="#">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                        <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Grocies Supermarket. All rights reserved.
+        </div>
+    </footer>
+    
+     
+    
+</body>
+</html>
